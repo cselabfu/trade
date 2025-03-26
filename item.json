@@ -1,0 +1,162 @@
+[
+    {
+        "item": "CL=F",
+        "name": "Crude Oil Futures"
+    },
+    {
+        "item": "ES=F",
+        "name": "S&P 500 Futures"
+    },
+    {
+        "item": "NQ=F",
+        "name": "Nasdaq 100 Futures"
+    },
+    {
+        "item": "YM=F",
+        "name": "Dow Jones Futures"
+    },
+    {
+        "item": "RTY=F",
+        "name": "Russell 2000 Futures"
+    },
+    {
+        "item": "GC=F",
+        "name": "Gold Futures"
+    },
+    {
+        "item": "SI=F",
+        "name": "Silver Futures"
+    },
+    {
+        "item": "PL=F",
+        "name": "Platinum Futures"
+    },
+    {
+        "item": "HG=F",
+        "name": "Copper Futures"
+    },
+    {
+        "item": "NG=F",
+        "name": "Natural Gas Futures"
+    },
+    {
+        "item": "HO=F",
+        "name": "Heating Oil Futures"
+    },
+    {
+        "item": "RB=F",
+        "name": "RBOB Gasoline Futures"
+    },
+    {
+        "item": "BZ=F",
+        "name": "Brent Crude Oil Futures"
+    },
+    {
+        "item": "ZC=F",
+        "name": "Corn Futures"
+    },
+    {
+        "item": "ZW=F",
+        "name": "Wheat Futures"
+    },
+    {
+        "item": "ZS=F",
+        "name": "Soybean Futures"
+    },
+    {
+        "item": "ZL=F",
+        "name": "Soybean Oil Futures"
+    },
+    {
+        "item": "ZM=F",
+        "name": "Soybean Meal Futures"
+    },
+    {
+        "item": "KE=F",
+        "name": "KC HRW Wheat Futures"
+    },
+    {
+        "item": "CC=F",
+        "name": "Cocoa Futures"
+    },
+    {
+        "item": "CT=F",
+        "name": "Cotton Futures"
+    },
+    {
+        "item": "KC=F",
+        "name": "Coffee Futures"
+    },
+    {
+        "item": "SB=F",
+        "name": "Sugar Futures"
+    },
+    {
+        "item": "LB=F",
+        "name": "Lumber Futures"
+    },
+    {
+        "item": "OJ=F",
+        "name": "Orange Juice Futures"
+    },
+    {
+        "item": "LE=F",
+        "name": "Live Cattle Futures"
+    },
+    {
+        "item": "GF=F",
+        "name": "Feeder Cattle Futures"
+    },
+    {
+        "item": "HE=F",
+        "name": "Lean Hogs Futures"
+    },
+    {
+        "item": "PA=F",
+        "name": "Palladium Futures"
+    },
+    {
+        "item": "^GSPC",
+        "name": "S&P 500 Index"
+    },
+    {
+        "item": "^IXIC",
+        "name": "Nasdaq Composite Index"
+    },
+    {
+        "item": "^DJI",
+        "name": "Dow Jones Industrial Average"
+    },
+    {
+        "item": "^RUT",
+        "name": "Russell 2000 Index"
+    },
+    {
+        "item": "^FTSE",
+        "name": "FTSE 100 Index"
+    },
+    {
+        "item": "^N225",
+        "name": "Nikkei 225 Index"
+    },
+    {
+        "item": "^HSI",
+        "name": "Hang Seng Index"
+    },
+    {
+        "item": "^AXJO",
+        "name": "S&P/ASX 200 Index"
+    },
+    {
+        "item": "^STOXX50E",
+        "name": "Euro Stoxx 50 Index"
+    },
+    {
+        "item": "^GDAXI",
+        "name": "DAX Performance Index"
+    },
+    {
+        "item": "^FCHI",
+        "name": "CAC 40 Index"
+    }
+]
