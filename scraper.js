@@ -69,7 +69,7 @@ async function scrapeYahooFinanceTable() {
         // Prepare CSV content
         let csvContent = '';
         filteredData.forEach(row => {
-            csvContent += row.join(',') + '\n';
+            csvContent += row.join('\t') + '\n';
         });
 
         // Save to file
@@ -96,7 +96,7 @@ async function scrapeYahooFinanceTable() {
 // Configuration
 const config = {
     url: 'https://finance.yahoo.com/quote/{{CODE}}/history/?period1={{START}}&period2={{END}}',
-    outputFile: 'data/{{CODE}}_{{START}}_{{END}}.csv',
+    outputFile: 'data/{{CODE}}_{{START}}_{{END}}.tsv',
     headless: true, // Set to false to see the browser in action
     slowMo: 50, // Slows down Puppeteer operations by the specified amount of milliseconds
 };
@@ -128,7 +128,7 @@ async function scrapeMultiplePages() {
 
             config.url = url;
             // config.outputFile = `${url.split('/')[4]}_data.csv`; // Creates unique filenames
-            config.outputFile = `data/${NAME}_${CODE}_${START}_${END}_data.csv`; // Creates unique filenames
+            config.outputFile = `data/${NAME}_${CODE}_${START}_${END}_data.tsv`; // Creates unique filenames
             await scrapeYahooFinanceTable();
         }
     });
